@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.teamdev.jxbrowser.chromium.javafx.BrowserView?>
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <!--    <bottom>
+    <ToolBar nodeOrientation="RIGHT_TO_LEFT" prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+    <items>
+    <Button mnemonicParsing="false" text="Button" />
+    </items>
+    <cursor>
+    <Cursor fx:constant="DEFAULT" />
+    </cursor>
+    </ToolBar>
+    </bottom>
+    <top>
+    <MenuBar BorderPane.alignment="CENTER">
+    <menus>
+    <Menu mnemonicParsing="false" text="Help">
+    <items>
+    <MenuItem mnemonicParsing="false" text="About" />
+    </items>
+    </Menu>
+    </menus>
+    </MenuBar>
+    </top>-->
+    <center>
+        <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <center>
+                <BrowserView fx:id="webview" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+            </center>
+        </BorderPane>
+    </center>
+</BorderPane>
